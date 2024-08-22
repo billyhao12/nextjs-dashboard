@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  experimental: {
-    ppr: 'incremental'
-  }
+  // Causes build to fail
+  // experimental: {
+  //   ppr: 'incremental'
+  // }
 };
 
 export default nextConfig;
